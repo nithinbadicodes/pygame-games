@@ -14,7 +14,7 @@ pygame.display.set_caption("Space Dodge")
 pygame.font.init()
 
 # Set the background variable
-BG = pygame.transform.scale(pygame.image.load("bg.jpeg"),(WIDTH,HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("Game1/bg.jpeg"),(WIDTH,HEIGHT))
 
 
 
