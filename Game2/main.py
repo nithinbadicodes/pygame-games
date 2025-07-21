@@ -89,27 +89,7 @@ def main():
         get_key_pressed(keys,yellow,red,"yellow")
         get_key_pressed(keys,yellow,red,"red")
 
-        # #Yellow spaceship movement and boundries
-        # if keys[pygame.K_w] and yellow.y >=0:
-        #     yellow.y-=SPACESHIP_VELOCITY
-        # if keys[pygame.K_s] and yellow.y <= HEIGHT - SPACESHIP_SIZE:
-        #     yellow.y+=SPACESHIP_VELOCITY
-        # if keys[pygame.K_a] and yellow.x>=0:
-        #     yellow.x-=SPACESHIP_VELOCITY
-        # if keys[pygame.K_d] and yellow.x <= WIDTH/2 -SPACESHIP_SIZE:
-        #     yellow.x+=SPACESHIP_VELOCITY
-
-
-        # #Red spaceship movement and boundries
-        # if keys[pygame.K_UP] and red.y >=0:
-        #     red.y -= SPACESHIP_VELOCITY
-        # if keys[pygame.K_DOWN] and red.y <= HEIGHT - SPACESHIP_SIZE:
-        #     red.y += SPACESHIP_VELOCITY
-        # if keys[pygame.K_LEFT] and red.x >= WIDTH/2:
-        #     red.x -= SPACESHIP_VELOCITY
-        # if keys[pygame.K_RIGHT] and red.x <= WIDTH - SPACESHIP_SIZE:
-        #     red.x += SPACESHIP_VELOCITY
-        
+       
 
 
 
