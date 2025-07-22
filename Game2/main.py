@@ -32,7 +32,7 @@ def draw(yellow,red):
 
 
 
-def get_key_pressed(keys,yellow,red,player:str):
+def get_key_pressed(keys,yellow,red,player:str) -> None:
     if player == "yellow":
         #Yellow spaceship movement and boundries
         if keys[pygame.K_w] and yellow.y >=0:
